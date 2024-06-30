@@ -21,7 +21,7 @@ os.path.dirname("../templates")
 #Flak's Database Configuration
 app.config['MYSQL_HOST'] = 'localhost'
 app.config['MYSQL_USER'] = 'root'
-app.config['MYSQL_PASSWORD'] = 'sudo'
+app.config['MYSQL_PASSWORD'] = ''
 app.config['MYSQL_DB'] = 'examproctordb'
 mysql = MySQL(app)
 
